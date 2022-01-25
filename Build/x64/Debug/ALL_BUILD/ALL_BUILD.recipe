@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\openexr\IlmBase\Half\Debug\eLut.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\openexr\IlmBase\Half\Debug\toFloat.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\x64\Debug\CopyIlmBaseLibs</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\openexr\OpenEXR\IlmImf\Debug\b44ExpLogTable.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\openexr\OpenEXR\IlmImf\Debug\dwaLookups.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\Debug\bsdftest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\Debug\cyhair2pbrt.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\glog\Debug\demangle_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\ptex\src\tests\Debug\ftest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\ptex\src\tests\Debug\halftest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\Debug\imgtool.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\glog\Debug\logging_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\Debug\obj2pbrt.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\Debug\pbrt.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\Debug\pbrt_test.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\ptex\src\utils\Debug\ptxinfo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\ptex\src\tests\Debug\rtest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\glog\Debug\stl_logging_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\glog\Debug\utilities_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\ptex\src\tests\Debug\wtest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

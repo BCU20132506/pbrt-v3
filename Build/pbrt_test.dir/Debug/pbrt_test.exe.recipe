@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\openexr\IlmBase\Half\Debug\eLut.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\openexr\IlmBase\Half\Debug\toFloat.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\x64\Debug\CopyIlmBaseLibs</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\openexr\OpenEXR\IlmImf\Debug\b44ExpLogTable.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\src\ext\openexr\OpenEXR\IlmImf\Debug\dwaLookups.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>V:\pbrt-v3\Build\Debug\pbrt_test.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

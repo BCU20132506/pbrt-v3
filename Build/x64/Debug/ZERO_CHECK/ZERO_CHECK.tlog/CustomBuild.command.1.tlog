@@ -1,0 +1,10 @@
+^V:\PBRT-V3\BUILD\CMAKEFILES\2985EE9D763C9160F9AEDE6FD9A22DB8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SV:/pbrt-v3 -BV:/pbrt-v3/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file V:/pbrt-v3/Build/PBRT-V3.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+﻿  Building Custom Rule V:/pbrt-v3/src/ext/ptex/src/tests/CMakeLists.txt
+  wtest.cpp
+  wtest.vcxproj -> V:\pbrt-v3\Build\src\ext\ptex\src\tests\Debug\wtest.exe

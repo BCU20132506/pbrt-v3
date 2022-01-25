@@ -1,0 +1,30 @@
+^V:\PBRT-V3\BUILD\CMAKEFILES\CD6404F971DA3A63C4B6A4C535B9599A\B44EXPLOGTABLE.H.RULE
+setlocal
+Debug\b44ExpLogTable > V:/pbrt-v3/Build/src/ext/openexr/OpenEXR/IlmImf/b44ExpLogTable.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^V:\PBRT-V3\BUILD\CMAKEFILES\CD6404F971DA3A63C4B6A4C535B9599A\DWALOOKUPS.H.RULE
+setlocal
+Debug\dwaLookups > V:/pbrt-v3/Build/src/ext/openexr/OpenEXR/IlmImf/dwaLookups.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^V:\PBRT-V3\SRC\EXT\OPENEXR\OPENEXR\ILMIMF\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SV:/pbrt-v3 -BV:/pbrt-v3/Build --check-stamp-file V:/pbrt-v3/Build/src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

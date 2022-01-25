@@ -1,0 +1,38 @@
+^V:\PBRT-V3\BUILD\CMAKEFILES\23CD5E2B9FA99D967B430EDF7E2B0F6F\ELUT.H.RULE
+setlocal
+cd V:\pbrt-v3\Build\src\ext\openexr\IlmBase\Half
+if %errorlevel% neq 0 goto :cmEnd
+V:
+if %errorlevel% neq 0 goto :cmEnd
+V:\pbrt-v3\Build\src\ext\openexr\IlmBase\Half\Debug\eLut.exe > V:/pbrt-v3/Build/src/ext/openexr/IlmBase/Half/eLut.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^V:\PBRT-V3\BUILD\CMAKEFILES\23CD5E2B9FA99D967B430EDF7E2B0F6F\TOFLOAT.H.RULE
+setlocal
+cd V:\pbrt-v3\Build\src\ext\openexr\IlmBase\Half
+if %errorlevel% neq 0 goto :cmEnd
+V:
+if %errorlevel% neq 0 goto :cmEnd
+V:\pbrt-v3\Build\src\ext\openexr\IlmBase\Half\Debug\toFloat.exe > V:/pbrt-v3/Build/src/ext/openexr/IlmBase/Half/toFloat.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^V:\PBRT-V3\SRC\EXT\OPENEXR\ILMBASE\HALF\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SV:/pbrt-v3 -BV:/pbrt-v3/Build --check-stamp-file V:/pbrt-v3/Build/src/ext/openexr/IlmBase/Half/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
